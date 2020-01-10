@@ -358,6 +358,7 @@ INPUT slides.toc
 INPUT ../figure/dist/osmFISH.pdf
 INPUT ../figure/dist/osmFISH.pdf
 INPUT ../figure/dist/osmFISH.pdf
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmssi10.tfm
 INPUT slides.toc
 INPUT slides.toc
 INPUT slides.toc

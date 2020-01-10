@@ -3,7 +3,7 @@
 \beamer@subsectionintoc {2}{1}{Single-Cell RNA Sequencing}{3}{0}{1}
 \beamer@subsectionintoc {2}{2}{Mathematics Preliminaries}{5}{0}{1}
 \beamer@sectionintoc {3}{Methods}{7}{0}{2}
-\beamer@subsectionintoc {3}{1}{Probabilistic models}{8}{0}{2}
+\beamer@subsectionintoc {3}{1}{Probabilistic models}{7}{0}{2}
 \beamer@subsectionintoc {3}{2}{Optimization}{11}{0}{2}
 \beamer@sectionintoc {4}{Results}{12}{0}{3}
 \beamer@sectionintoc {5}{Future Work}{12}{0}{4}

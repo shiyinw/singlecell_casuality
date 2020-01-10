@@ -107,23 +107,27 @@
 
 \section{Methods}
 
+\subsection{Probabilistic models}
+
 \begin{frame}{Choose Log-Scale to Model Gene Expression}
+\vspace{-0.5cm}
 \begin{figure}
 \includegraphics[width=0.7\columnwidth]{../figure/dist/osmFISH.pdf}
 \end{figure}
+\vspace{-0.1cm}
+The support of X and Y is a non-negative, we use $log(X+1)$ instead of $log(X)$ to map it onto the log-scale non-negative space.
 \end{frame}
 
-\subsection{Probabilistic models}
+
 \begin{frame}{Bayesian Hierarchical Linear Model}
 X and Y are the expression profiles of two genes. The edge weights in the desired network correspond to the regression coefficient $k$ in the equation.
 \begin{equation}
     \begin{array}{ll}
-            logY = k logX +\epsilon\\
+            log(Y+1) = k log(X+1) +\epsilon\\
             k \sim N(\beta, \sigma)\\
             \epsilon \sim N(0, \gamma^2)\\
     \end{array}
 \end{equation}
-
 This model estimates k from single-cell RNA sequencing records.
 \end{frame}
 
@@ -141,7 +145,7 @@ Bayesian hierarchical linear model and transition probability explain the networ
 \begin{equation}
    maximize\ L(W; \Beta_k, \Sigma_k) = \sum_{v_1\in V} \sum_{v_2\in V} Pr_{N(\Beta_k, \Sigma_k)} (w=Pr(v_1\rightarrow v_2))
 \end{equation}
-Add regulation term to restrain the number of edges in the network.
+Add regulation term $\lambda |V|$ to restrain the number of edges in the network.
 \begin{equation}
    maximize\ L(W; \Beta_k, \Sigma_k) = \sum_{v_1\in V} \sum_{v_2\in V} Pr_{N(\Beta_k, \Sigma_k)} (w=Pr(v_1\rightarrow v_2)) - \lambda |V|
 \end{equation}
@@ -149,20 +153,20 @@ Add regulation term to restrain the number of edges in the network.
 
 
 \subsection{Optimization}
-\begin{frame}{Markov Chain Monte Carlo}
-
+\begin{frame}{Data Preprocessing - Normalization}
+\begin{enumerate}
+\item Retained the top genes ordered by variance as in [Lopez \textit{et al.}, 2018]\footnote{Lopez, R., Regier, J., Cole, M.B. et al. Deep generative modeling for single-cell transcriptomics. Nat Methods 15, 1053–1058 (2018) doi:10.1038/s41592-018-0229-2}
+\item Normalize genes to standard Gaussian distribution $N(0, 1)$
+\end{enumerate}
+Reason for normalization to standard deviation: So that the regression coefficient in $Y=kX+\epsilon$ is $\hat{k} = \frac{cov(X, Y)}{var(X)} = cov(X, Y)$, which is exchangeable and bidirectional.
 \end{frame}
+
 
 
 %------------------------------------------------------------------------------
 
 
 \section{Results}
-
-
-
-
-%------------------------------------------------------------------------------
 
 
 
@@ -174,6 +178,7 @@ Add regulation term to restrain the number of edges in the network.
 
 \begin{frame}{Possible Directions}
 \begin{itemize}
+\item Theoretical analysis and case study to compare with other methods that derive networks from covariance matrix directly
 \item Integrate existing knowledge from protein-protein interaction networks (STRING, OmniPATH, ConsensusPath, etc) as priors
 \item Design better probability models
 \item Make interactive transition videos

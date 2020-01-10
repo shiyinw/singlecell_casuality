@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.10.26)  23 DEC 2019 02:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.10.26)  23 DEC 2019 09:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -975,7 +975,7 @@ tex.map}
 
 ] (./slides.toc)
 <Single-cell-RNA-seq-of-four-iN-cell-populations-a-c-Cells-are-colour-coded-as.
-png, id=160, 758.835pt x 611.28375pt>
+png, id=154, 758.835pt x 611.28375pt>
 File: Single-cell-RNA-seq-of-four-iN-cell-populations-a-c-Cells-are-colour-code
 d-as.png Graphic file (type png)
 <use Single-cell-RNA-seq-of-four-iN-cell-populations-a-c-Cells-are-colour-coded
@@ -1001,19 +1001,19 @@ thkerncmss.
 
  <./Single-cell-RNA-seq-of-four-iN-cell-populations-a-c-Cells-are-colour-coded-
 as.png>]
-<../figure/scatter.png, id=187, 809.6649pt x 564.1878pt>
+<../figure/scatter.png, id=181, 807.2559pt x 568.0422pt>
 File: ../figure/scatter.png Graphic file (type png)
 <use ../figure/scatter.png>
 Package pdftex.def Info: ../figure/scatter.png  used on input line 86.
-(pdftex.def)             Requested size: 245.83282pt x 171.29793pt.
+(pdftex.def)             Requested size: 245.83282pt x 172.97958pt.
 
-Overfull \vbox (7.18451pt too high) detected at line 86
+Overfull \vbox (4.02925pt too high) detected at line 86
  []
 
 [4
 
  <../figure/scatter.png>]
-<bayes.png, id=214, 501.875pt x 238.8925pt>
+<bayes.png, id=208, 501.875pt x 238.8925pt>
 File: bayes.png Graphic file (type png)
 <use bayes.png>
 Package pdftex.def Info: bayes.png  used on input line 94.
@@ -1021,7 +1021,7 @@ Package pdftex.def Info: bayes.png  used on input line 94.
 [5
 
  <./bayes.png (PNG copy)>]
-<mcmc.png, id=239, 657.95813pt x 432.11438pt>
+<mcmc.png, id=233, 657.95813pt x 432.11438pt>
 File: mcmc.png Graphic file (type png)
 <use mcmc.png>
 Package pdftex.def Info: mcmc.png  used on input line 103.
@@ -1029,10 +1029,10 @@ Package pdftex.def Info: mcmc.png  used on input line 103.
 [6
 
  <./mcmc.png>] (./slides.toc)
-<../figure/dist/osmFISH.pdf, id=275, 396.74475pt x 287.13147pt>
+<../figure/dist/osmFISH.pdf, id=268, 396.74475pt x 287.13147pt>
 File: ../figure/dist/osmFISH.pdf Graphic file (type pdf)
 <use ../figure/dist/osmFISH.pdf>
-Package pdftex.def Info: ../figure/dist/osmFISH.pdf  used on input line 114.
+Package pdftex.def Info: ../figure/dist/osmFISH.pdf  used on input line 119.
 (pdftex.def)             Requested size: 215.10196pt x 155.67519pt.
 [7
 
@@ -1044,7 +1044,7 @@ Package pdftex.def Info: ../figure/dist/osmFISH.pdf  used on input line 114.
 ! Undefined control sequence.
 \beamer@doifinframe ...tion} maximize\ L(W; \Beta 
                                                   _k, \Sigma _k) = \sum _{v_...
-l.148 \end{frame}
+l.152 \end{frame}
                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1055,7 +1055,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \beamer@doifinframe ...um _{v_2\in V} Pr_{N(\Beta 
                                                   _k, \Sigma _k)} (w=Pr(v_1\...
-l.148 \end{frame}
+l.152 \end{frame}
                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1066,7 +1066,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \beamer@doifinframe ...tion} maximize\ L(W; \Beta 
                                                   _k, \Sigma _k) = \sum _{v_...
-l.148 \end{frame}
+l.152 \end{frame}
                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1077,7 +1077,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \beamer@doifinframe ...um _{v_2\in V} Pr_{N(\Beta 
                                                   _k, \Sigma _k)} (w=Pr(v_1\...
-l.148 \end{frame}
+l.152 \end{frame}
                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1086,7 +1086,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (12.12747pt too wide) detected at line 148
+Overfull \hbox (12.12747pt too wide) detected at line 152
 \OT1/mathkerncmss/m/sl/10.95 maximize L\OT1/cmss/m/n/10.95 (\OT1/mathkerncmss/m
 /sl/10.95 W\OT1/cmss/m/n/10.95 ;[] \OML/cmm/m/it/10.95 ; \OT1/cmss/m/n/10.95 ^^
 F[]) = [] [] \OT1/mathkerncmss/m/sl/10.95 Pr[]\OT1/cmss/m/n/10.95 (\OT1/mathker
@@ -1106,13 +1106,13 @@ erncmss/m/sl/10.95 v[]\OT1/cmss/m/n/10.95 )) \OMS/cmsy/m/n/10.95 ^^@ \OML/cmm/m
 ] [13
 
 ] (./slides.toc)
-<th.jpeg, id=519, 475.7775pt x 333.245pt>
+<th.jpeg, id=509, 475.7775pt x 333.245pt>
 File: th.jpeg Graphic file (type jpg)
 <use th.jpeg>
-Package pdftex.def Info: th.jpeg  used on input line 199.
+Package pdftex.def Info: th.jpeg  used on input line 204.
 (pdftex.def)             Requested size: 261.19826pt x 182.95479pt.
 
-Overfull \vbox (10.30547pt too high) detected at line 199
+Overfull \vbox (5.46855pt too high) detected at line 204
  []
 
 [14
@@ -1127,52 +1127,37 @@ Overfull \vbox (10.30547pt too high) detected at line 199
 \tf@snm=\write8
 \openout8 = `slides.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 201.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 201.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 206.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 206.
 (./slides.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 201.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 201.
-
-Package rerunfilecheck Warning: File `slides.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `slides.out':
-(rerunfilecheck)             Before: 0118795039181293C6841D0D0C8CB5CF;611
-(rerunfilecheck)             After:  F64F10CEB1B373CE83277A3304155CA1;536.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 206.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 206.
+Package rerunfilecheck Info: File `slides.out' has not changed.
+(rerunfilecheck)             Checksum: 72DF27A0D11B17D02960B5B0A0D47214;536.
  ) 
 Here is how much of TeX's memory you used:
- 19199 strings out of 492649
- 363220 string characters out of 6129621
- 555124 words of memory out of 5000000
- 22572 multiletter control sequences out of 15000+600000
- 12509 words of font info for 46 fonts, out of 8000000 for 9000
+ 19209 strings out of 492649
+ 363569 string characters out of 6129621
+ 555125 words of memory out of 5000000
+ 22584 multiletter control sequences out of 15000+600000
+ 12865 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,19n,63p,798b,760s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{Outline0.3.3.11} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{Outline0.3.2.8} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{Outline0.3.1.7} has been referenced but does not ex
-ist, replaced by a fixed one
-
-</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
-/usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
-usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></us
-r/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr
-/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/
-local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/lo
-cal/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/lo
-cal/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/loc
-al/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loca
-l/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/
-texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on slides.pdf (14 pages, 1639873 bytes).
+</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
+></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
+</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></
+usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></u
+sr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></us
+r/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/
+local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/
+local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/l
+ocal/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/lo
+cal/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/loca
+l/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on slides.pdf (14 pages, 1645169 bytes).
 PDF statistics:
- 592 PDF objects out of 1000 (max. 8388607)
- 449 compressed objects within 5 object streams
- 42 named destinations out of 1000 (max. 500000)
- 161 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 583 PDF objects out of 1000 (max. 8388607)
+ 445 compressed objects within 5 object streams
+ 39 named destinations out of 1000 (max. 500000)
+ 153 words of extra memory for PDF output out of 10000 (max. 10000000)
 
