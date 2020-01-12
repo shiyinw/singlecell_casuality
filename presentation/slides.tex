@@ -114,8 +114,8 @@
 \begin{figure}
 \includegraphics[width=0.7\columnwidth]{../figure/dist/osmFISH.pdf}
 \end{figure}
-\vspace{-0.1cm}
-The support of X and Y is a non-negative, we use $log(X+1)$ instead of $log(X)$ to map it onto the log-scale non-negative space.
+\caption{The support of X and Y is a non-negative, we use $log(X+1)$ instead of $log(X)$ to map it onto the log-scale non-negative space.}
+
 \end{frame}
 
 
@@ -162,13 +162,29 @@ Reason for normalization to standard deviation: So that the regression coefficie
 \end{frame}
 
 
+\begin{frame}{Why use Poisson Distribution}
+\begin{figure}
+\vspace{-0.5cm}
+\centering
+\includegraphics[width=0.7\columnwidth]{../figure/whypoisson.pdf}
+\caption{This fraction changes rapidly when $x$ is far away from $\lambda$, while not significant when $x$ is close to $\lambda$. By adjusting parameter $\lambda$, we can guide the sparsity of the network.}
+\end{figure}
+\end{frame}
+
+
 
 %------------------------------------------------------------------------------
 
 
 \section{Results}
 
-
+\begin{frame}{Choose Log-Scale to Model Gene Expression}
+\begin{figure}
+\vspace{-0.3cm}
+\includegraphics[width=0.6\columnwidth]{../figure/convergence.png}
+\caption{The convergence curves and results on the osmFISH dataset.}
+\end{figure}
+\end{frame}
 
 
 

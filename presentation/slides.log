@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.10.26)  23 DEC 2019 09:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.10.26)  12 JAN 2020 23:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -975,7 +975,7 @@ tex.map}
 
 ] (./slides.toc)
 <Single-cell-RNA-seq-of-four-iN-cell-populations-a-c-Cells-are-colour-coded-as.
-png, id=154, 758.835pt x 611.28375pt>
+png, id=162, 758.835pt x 611.28375pt>
 File: Single-cell-RNA-seq-of-four-iN-cell-populations-a-c-Cells-are-colour-code
 d-as.png Graphic file (type png)
 <use Single-cell-RNA-seq-of-four-iN-cell-populations-a-c-Cells-are-colour-coded
@@ -1001,7 +1001,7 @@ thkerncmss.
 
  <./Single-cell-RNA-seq-of-four-iN-cell-populations-a-c-Cells-are-colour-coded-
 as.png>]
-<../figure/scatter.png, id=181, 807.2559pt x 568.0422pt>
+<../figure/scatter.png, id=191, 807.2559pt x 568.0422pt>
 File: ../figure/scatter.png Graphic file (type png)
 <use ../figure/scatter.png>
 Package pdftex.def Info: ../figure/scatter.png  used on input line 86.
@@ -1013,7 +1013,7 @@ Overfull \vbox (4.02925pt too high) detected at line 86
 [4
 
  <../figure/scatter.png>]
-<bayes.png, id=208, 501.875pt x 238.8925pt>
+<bayes.png, id=220, 501.875pt x 238.8925pt>
 File: bayes.png Graphic file (type png)
 <use bayes.png>
 Package pdftex.def Info: bayes.png  used on input line 94.
@@ -1021,7 +1021,7 @@ Package pdftex.def Info: bayes.png  used on input line 94.
 [5
 
  <./bayes.png (PNG copy)>]
-<mcmc.png, id=233, 657.95813pt x 432.11438pt>
+<mcmc.png, id=247, 657.95813pt x 432.11438pt>
 File: mcmc.png Graphic file (type png)
 <use mcmc.png>
 Package pdftex.def Info: mcmc.png  used on input line 103.
@@ -1029,11 +1029,26 @@ Package pdftex.def Info: mcmc.png  used on input line 103.
 [6
 
  <./mcmc.png>] (./slides.toc)
-<../figure/dist/osmFISH.pdf, id=268, 396.74475pt x 287.13147pt>
+<../figure/dist/osmFISH.pdf, id=284, 390.78499pt x 300.30568pt>
 File: ../figure/dist/osmFISH.pdf Graphic file (type pdf)
 <use ../figure/dist/osmFISH.pdf>
 Package pdftex.def Info: ../figure/dist/osmFISH.pdf  used on input line 119.
-(pdftex.def)             Requested size: 215.10196pt x 155.67519pt.
+(pdftex.def)             Requested size: 215.10196pt x 165.29694pt.
+
+! Package caption Error: \caption outside float.
+
+See the caption package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.119 \end{frame}
+                 
+If you do not understand this error, please take a closer look
+at the documentation of the `caption' package, especially the
+section about errors.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
 [7
 
  <../figure/dist/osmFISH.pdf>] [8
@@ -1101,21 +1116,45 @@ erncmss/m/sl/10.95 v[]\OT1/cmss/m/n/10.95 )) \OMS/cmsy/m/n/10.95 ^^@ \OML/cmm/m
 
 ] [11
 
-] (./slides.toc) (./slides.toc) [12
+]
+<../figure/whypoisson.pdf, id=453, 433.62pt x 289.08pt>
+File: ../figure/whypoisson.pdf Graphic file (type pdf)
+<use ../figure/whypoisson.pdf>
+Package pdftex.def Info: ../figure/whypoisson.pdf  used on input line 172.
+(pdftex.def)             Requested size: 215.10196pt x 143.4016pt.
 
-] [13
-
-] (./slides.toc)
-<th.jpeg, id=509, 475.7775pt x 333.245pt>
-File: th.jpeg Graphic file (type jpg)
-<use th.jpeg>
-Package pdftex.def Info: th.jpeg  used on input line 204.
-(pdftex.def)             Requested size: 261.19826pt x 182.95479pt.
-
-Overfull \vbox (5.46855pt too high) detected at line 204
+Overfull \vbox (15.91536pt too high) detected at line 172
  []
 
-[14
+[12
+
+ <../figure/whypoisson.pdf>] (./slides.toc)
+<../figure/convergence.png, id=521, 1575.0042pt x 1416.492pt>
+File: ../figure/convergence.png Graphic file (type png)
+<use ../figure/convergence.png>
+Package pdftex.def Info: ../figure/convergence.png  used on input line 187.
+(pdftex.def)             Requested size: 184.3758pt x 165.80022pt.
+
+Overfull \vbox (14.31398pt too high) detected at line 187
+ []
+
+[13
+
+ <../figure/convergence.png>] (./slides.toc) [14
+
+] [15
+
+] (./slides.toc)
+<th.jpeg, id=620, 475.7775pt x 333.245pt>
+File: th.jpeg Graphic file (type jpg)
+<use th.jpeg>
+Package pdftex.def Info: th.jpeg  used on input line 220.
+(pdftex.def)             Requested size: 261.19826pt x 182.95479pt.
+
+Overfull \vbox (5.46855pt too high) detected at line 220
+ []
+
+[16
 
  <./th.jpeg>]
 \tf@nav=\write6
@@ -1127,20 +1166,20 @@ Overfull \vbox (5.46855pt too high) detected at line 204
 \tf@snm=\write8
 \openout8 = `slides.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 206.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 206.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 222.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 222.
 (./slides.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 206.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 206.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 222.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 222.
 Package rerunfilecheck Info: File `slides.out' has not changed.
 (rerunfilecheck)             Checksum: 72DF27A0D11B17D02960B5B0A0D47214;536.
  ) 
 Here is how much of TeX's memory you used:
- 19209 strings out of 492649
- 363569 string characters out of 6129621
- 555125 words of memory out of 5000000
- 22584 multiletter control sequences out of 15000+600000
- 12865 words of font info for 47 fonts, out of 8000000 for 9000
+ 19255 strings out of 492649
+ 364524 string characters out of 6129621
+ 556125 words of memory out of 5000000
+ 22624 multiletter control sequences out of 15000+600000
+ 15014 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,19n,63p,798b,760s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
@@ -1154,10 +1193,10 @@ local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/l
 ocal/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/lo
 cal/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/loca
 l/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on slides.pdf (14 pages, 1645169 bytes).
+Output written on slides.pdf (16 pages, 3111898 bytes).
 PDF statistics:
- 583 PDF objects out of 1000 (max. 8388607)
- 445 compressed objects within 5 object streams
- 39 named destinations out of 1000 (max. 500000)
- 153 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 697 PDF objects out of 1000 (max. 8388607)
+ 535 compressed objects within 6 object streams
+ 43 named destinations out of 1000 (max. 500000)
+ 163 words of extra memory for PDF output out of 10000 (max. 10000000)
 
